@@ -40,6 +40,7 @@
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
+
 ### Intuition
 
 A hash set allows for $O(1)$ average-time lookups. By storing numbers as we iterate, we can instantly check if we've encountered a specific number before without rescanning the array.
