@@ -39,3 +39,25 @@
 
 <p>&nbsp;</p>
 <strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than <code>O(n<sup>2</sup>)</code><font face="monospace">&nbsp;</font>time complexity?
+
+### Intuition
+
+Instead of using a nested loop to check every possible pair, we can use a hash map to keep track of the numbers we've seen and their indices. This allows us to instantly check if the exact number we need (the complement) has already appeared.
+
+### Approach
+
+1. Initialize an empty dictionary called `num_map`.
+2. Iterate through the array `nums`, tracking both the index `i` and the value `num`.
+3. Calculate the `complement` required to reach the target (`target - num`).
+4. If the `complement` is already a key in `num_map`, you have found your pair. Return `[num_map[complement], i]`.
+5. If it is not in the map, add the current `num` as a key with its index `i` as the value, and continue.
+
+### Complexity
+
+* **Time complexity:** $O(n)$
+We traverse the list containing $n$ elements exactly once. Each lookup and insertion in the hash map takes $O(1)$ time on average.
+* **Space complexity:** $O(n)$
+The extra space required depends on the number of items stored in the hash map, which in the worst-case scenario will store $n$ elements.
+
+### Code
+
