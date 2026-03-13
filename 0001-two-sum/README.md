@@ -59,5 +59,4 @@ We traverse the list containing $n$ elements exactly once. Each lookup and inser
 * **Space complexity:** $O(n)$
 The extra space required depends on the number of items stored in the hash map, which in the worst-case scenario will store $n$ elements.
 
-### Code
 
