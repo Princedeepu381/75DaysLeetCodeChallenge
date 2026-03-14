@@ -27,6 +27,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> What if the inputs contain Unicode characters? How would you adapt your solution to such a case?</p>
+
 ### Intuition
 
 An anagram means both strings have the exact same characters in the exact same quantities. If we count the frequency of each letter in both strings, the two frequency maps must be identical.
