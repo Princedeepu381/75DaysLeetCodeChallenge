@@ -41,3 +41,25 @@
 	<li><code>0 &lt;= strs[i].length &lt;= 100</code></li>
 	<li><code>strs[i]</code> consists of lowercase English letters.</li>
 </ul>
+
+
+### Intuition
+
+Since all anagrams share the exact same characters, we can create a universal "signature" for them by either sorting the string or counting the frequency of its letters. If we use this signature as a key in a hash map, we can instantly group all matching strings into a list.
+
+### Approach
+
+1. Initialize a `collections.defaultdict(list)` to avoid `KeyError` exceptions when adding new entries.
+2. Iterate through each string in `strs`.
+3. Generate the signature (either by sorting the characters or creating an array of 26 character counts).
+4. Use the signature as a dictionary key (converted to a tuple since lists/arrays are not hashable in Python) and append the original string to that key's list.
+5. Return all the grouped lists using `.values()`.
+
+### Complexity
+
+* **Time complexity:** * **Sorting Method:** $O(N \cdot K \log K)$, where $N$ is the number of strings and $K$ is the maximum length of a string.
+* **Counting Method:** $O(N \cdot K)$. Faster theoretically, though sorting often beats it in Python due to highly optimized internal C code (Timsort) for short strings.
+
+
+* **Space complexity:** $O(N \cdot K)$
+We must store all strings in our hash map and the final output array.
