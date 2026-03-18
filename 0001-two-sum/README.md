@@ -58,5 +58,3 @@ Instead of using a nested loop to check every possible pair, we can use a hash m
 We traverse the list containing $n$ elements exactly once. Each lookup and insertion in the hash map takes $O(1)$ time on average.
 * **Space complexity:** $O(n)$
 The extra space required depends on the number of items stored in the hash map, which in the worst-case scenario will store $n$ elements.
-
-
