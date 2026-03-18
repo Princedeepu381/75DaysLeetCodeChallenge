@@ -23,3 +23,21 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong>&nbsp;Can you solve the problem in <code>O(1)</code>&nbsp;extra&nbsp;space complexity? (The output array <strong>does not</strong> count as extra space for space complexity analysis.)</p>
+
+
+
+### Intuition
+Since division is forbidden, the product of the array *except* `nums[i]` is simply the product of everything to its **left** multiplied by the product of everything to its **right**. We can calculate these left (prefix) and right (postfix) products in two separate sweeps.
+
+### Approach
+
+1. Initialize an output array `res` of the same length as `nums`, filled with `1`s.
+2. **First Pass (Prefixes):** Iterate left-to-right. For each index `i`, store the running `prefix` product in `res[i]`, then multiply the `prefix` by the current `nums[i]` for the next iteration.
+3. **Second Pass (Postfixes):** Iterate right-to-left. For each index `i`, multiply the existing value in `res[i]` by the running `postfix` product. Then, multiply the `postfix` by the current `nums[i]` for the next iteration.
+4. Return `res`.
+
+### Complexity
+* **Time complexity:** $O(n)$
+We iterate through the array exactly twice (one forward pass, one backward pass), which takes strictly linear time.
+* **Space complexity:** $O(1)$
+The problem explicitly states that the output array does not count toward extra space. The only auxiliary variables we use are `prefix` and `postfix`, taking constant space.
