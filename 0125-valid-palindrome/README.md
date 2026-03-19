@@ -29,6 +29,21 @@ Since an empty string reads the same forward and backward, it is a palindrome.
 </pre>
 
 <p>&nbsp;</p>
+
+
+### Intuition
+A palindrome reads the same forwards and backwards. This means the first character must match the last, the second must match the second-to-last, and so on. Instead of creating a whole new cleaned string (which takes extra memory), we can just point to the start and end of the original string and walk inwards, ignoring any spaces or punctuation along the way.
+
+### Approach
+
+1. Initialize two pointers: `l` at the beginning of the string (index `0`) and `r` at the end (index `len(s) - 1`).
+2. Loop while `l` is less than `r`.
+3. If the character at `l` is not alphanumeric (a letter or number), move `l` to the right (`l += 1`) and continue.
+4. If the character at `r` is not alphanumeric, move `r` to the left (`r -= 1`) and continue.
+5. Once both pointers are on valid alphanumeric characters, compare their lowercase versions. 
+6. If they are different, the string is not a palindrome. Return `False`.
+7. If they are the same, move both pointers inward (`l += 1`, `r -= 1`) and repeat.
+8. If the pointers meet or cross without finding any mismatches, return `True`.
 <p><strong>Constraints:</strong></p>
 
 <ul>
