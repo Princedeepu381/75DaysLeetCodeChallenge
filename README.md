@@ -9,3 +9,15 @@
 | **0242. Valid Anagram** | `Hash Table`, `Sorting`, `String` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
 | **0347. Top K Frequent Elements** | `Array`, `Hash Table`, `Sorting`, `Heap`, `Bucket Sort` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
 | **0448. Find All Numbers Disappeared**| `Array`, `Hash Table` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0125-valid-palindrome) |
+<!---LeetCode Topics End-->
