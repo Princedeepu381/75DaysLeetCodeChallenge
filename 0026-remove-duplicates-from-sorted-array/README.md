@@ -44,6 +44,26 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
+
+
+### Intuition
+Since the array is already sorted, all duplicate numbers will be grouped directly next to each other. We can use a "Two Pointer" approach to simply overwrite the duplicates as we scan the array and find new, unique numbers. 
+
+### Approach
+
+1. We know the very first element (`nums[0]`) is always unique relative to what we've seen so far, so we start our "insert" pointer `l` at index `1`.
+2. We use a second pointer `r` (in the `for` loop) to iterate through the array, also starting at index `1`.
+3. We compare the current element `nums[r]` with the previous element `nums[r - 1]`.
+4. If they are the same, it is a duplicate. We do nothing and let `r` move forward.
+5. If they are different, we have found a new unique number. We copy `nums[r]` into the spot pointed to by `l`, and then increment `l` forward by one.
+6. When the loop finishes, `l` will represent the exact number of unique elements we found (and also the length of the new valid prefix).
+
+### Complexity
+* **Time complexity:** $O(n)$
+We traverse the array exactly once with the `r` pointer.
+* **Space complexity:** $O(1)$
+We modify the array strictly in-place as required, using only two integer pointers for memory.
+
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>-100 &lt;= nums[i] &lt;= 100</code></li>
