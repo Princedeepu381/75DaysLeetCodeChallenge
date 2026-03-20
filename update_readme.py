@@ -32,7 +32,6 @@ for folder in folders:
     num, name = format_name(folder)
     topics = TOPICS_MAP.get(num, "`-`")
     link = f"{REPO_URL}{folder}"
-    # Formatted as plain text to match your screenshot
     table_rows.append(f"| {num}. {name} | {topics} | [View Code]({link}) |")
 
 table_content = table_header + '\n'.join(table_rows)
@@ -43,7 +42,6 @@ with open(README_PATH, 'r', encoding='utf-8') as f:
 start_tag = ""
 end_tag = ""
 
-# Replaces everything between the tags with the exact heading and table
 new_content = re.sub(
     rf"(?s)({re.escape(start_tag)}).*?({re.escape(end_tag)})", 
     rf"\1\n\n## 🚀 LeetCode Progress\n\n{table_content}\n\n\2", 
