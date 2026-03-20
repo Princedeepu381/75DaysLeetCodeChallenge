@@ -22,9 +22,11 @@ def format_name(folder_name):
     name = ' '.join(parts[1:]).title()
     return num, name
 
+# Find all matching problem folders
 folders = [f for f in os.listdir('.') if os.path.isdir(f) and re.match(r'^\d{4}-', f)]
 folders.sort()
 
+# Build the markdown table
 table_header = "| Problem | Topics | Solution |\n| :--- | :--- | :--- |\n"
 table_rows = []
 
@@ -36,17 +38,18 @@ for folder in folders:
 
 table_content = table_header + '\n'.join(table_rows)
 
+# Read the current README
 with open(README_PATH, 'r', encoding='utf-8') as f:
     content = f.read()
 
+# Define the exact section to replace
 start_tag = ""
 end_tag = ""
 
-new_content = re.sub(
-    rf"(?s)({re.escape(start_tag)}).*?({re.escape(end_tag)})", 
-    rf"\1\n\n## 🚀 LeetCode Progress\n\n{table_content}\n\n\2", 
-    content
-)
+# Completely replace everything between the tags with just ONE clean table
+replacement = f"{start_tag}\n\n## 🚀 LeetCode Progress\n\n{table_content}\n\n{end_tag}"
+new_content = re.sub(rf"(?s){re.escape(start_tag)}.*?{re.escape(end_tag)}", replacement, content)
 
+# Save the new README
 with open(README_PATH, 'w', encoding='utf-8') as f:
     f.write(new_content)
