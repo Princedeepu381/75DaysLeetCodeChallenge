@@ -1,44 +1,13 @@
-name: Update LeetCode README
+## 🚀 LeetCode Progress
 
-on:
-  push:
-    branches:
-      - master
-  workflow_dispatch:
-
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Fetches all history so rebase works
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Run Python Script
-        run: python update_readme.py
-
-      - name: Commit and Push Changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add README.md
-          
-          # Only commit if there are changes
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-          
-          git commit -m "Auto-update LeetCode progress table 🚀"
-          
-          # Pull with rebase to sync with any background LeetHub pushes, then push
-          git pull origin master --rebase
-          git push
+| Problem | Topics | Solution |
+| :--- | :--- | :--- |
+| **0001. Two Sum** | `Array`, `Hash Table` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0001-two-sum) |
+| **0026. Remove Duplicates from Sorted Array** | `Array`, `Two Pointers` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0026-remove-duplicates-from-sorted-array) |
+| **0049. Group Anagrams** | `Array`, `Hash Table`, `Sorting`, `String` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
+| **0125. Valid Palindrome** | `String`, `Two Pointers` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0125-valid-palindrome) |
+| **0217. Contains Duplicate** | `Array`, `Hash Table`, `Sorting` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
+| **0238. Product of Array Except Self**| `Array`, `Prefix Sum` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0238-product-of-array-except-self) |
+| **0242. Valid Anagram** | `Hash Table`, `Sorting`, `String` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
+| **0347. Top K Frequent Elements** | `Array`, `Hash Table`, `Sorting`, `Heap`, `Bucket Sort` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
+| **0448. Find All Numbers Disappeared**| `Array`, `Hash Table` | [View Code](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
