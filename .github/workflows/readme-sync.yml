@@ -14,41 +14,35 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: Generate Table using Python
+      - name: Generate Clean README
         run: |
-          python -c "
-          import os, re
-          
-          # 1. Find the folders
+          cat << 'EOF' > generate_readme.py
+          import os
           folders = sorted([f for f in os.listdir('.') if os.path.isdir(f) and f[0].isdigit()])
           
-          # 2. Build the table with strict Markdown spacing
-          table = '\n\n| Problem Folder | Link |\n|---|---|\n'
-          for f in folders: 
-              table += f'| {f} | [View Code](./{f}) |\n'
-          table += '\n'
+          readme = """<div align="center">
+            <a href="https://leetcode.com/princedeepu381/">
+              <img src="https://leetcard.jacoblin.cool/princedeepu381?ext=activity" alt="LeetCode Stats" />
+            </a>
+          </div>\n
+          ### 🚀 Solved Problems\n
+          | Problem Folder | Link |
+          |---|---|
+          """
           
-          # 3. Read the README
-          with open('README.md', 'r') as file: 
-              content = file.read()
-          
-          # 4. Safely replace everything between the START and END tags
-          new_content = re.sub(
-              r'().*?()', 
-              r'\1' + table + r'\2', 
-              content, 
-              flags=re.DOTALL
-          )
-          
-          # 5. Write the changes
-          with open('README.md', 'w') as file: 
-              file.write(new_content)
-          "
+          for f in folders:
+              readme += f"| {f} | [View Code](./{f}) |\n"
+              
+          with open("README.md", "w") as f:
+              f.write(readme)
+          EOF
+          python generate_readme.py
+          rm generate_readme.py
           
       - name: Commit and Push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Fixed markdown table rendering" || exit 0
+          git commit -m "Rebuilt README completely from scratch" || exit 0
           git push
