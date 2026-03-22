@@ -3,7 +3,6 @@ on:
   push:
     branches: [ main ]
 
-# THIS IS THE NEW PART THAT FIXES THE ERROR
 permissions:
   contents: write 
 
@@ -19,12 +18,16 @@ jobs:
         run: |
           python -c "
           import os
-          files = [f for f in os.listdir('.') if f.endswith('.py')]
-          table = '| Problem | Language |\n|---|---|\n'
-          for f in files: table += f'| {f} | Python |\n'
+          # Find all folders that start with a number (like 0001-two-sum)
+          folders = sorted([f for f in os.listdir('.') if os.path.isdir(f) and f[0].isdigit()])
+          
+          table = '| Problem Folder | Link |\n|---|---|\n'
+          for f in folders: 
+              table += f'| {f} | [View Code](./{f}) |\n'
           
           with open('README.md', 'r') as file: content = file.read()
           start, end = content.find(''), content.find('')
+          
           if start != -1 and end != -1:
               new_content = content[:start + 20] + '\n' + table + '\n' + content[end:]
               with open('README.md', 'w') as file: file.write(new_content)
@@ -35,5 +38,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Auto-updated README table" || exit 0
+          git commit -m "Auto-updated README table with folders" || exit 0
           git push
