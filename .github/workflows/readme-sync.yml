@@ -17,20 +17,32 @@ jobs:
       - name: Generate Table using Python
         run: |
           python -c "
-          import os
-          # Find all folders that start with a number (like 0001-two-sum)
+          import os, re
+          
+          # 1. Find the folders
           folders = sorted([f for f in os.listdir('.') if os.path.isdir(f) and f[0].isdigit()])
           
-          table = '| Problem Folder | Link |\n|---|---|\n'
+          # 2. Build the table with strict Markdown spacing
+          table = '\n\n| Problem Folder | Link |\n|---|---|\n'
           for f in folders: 
               table += f'| {f} | [View Code](./{f}) |\n'
+          table += '\n'
           
-          with open('README.md', 'r') as file: content = file.read()
-          start, end = content.find(''), content.find('')
+          # 3. Read the README
+          with open('README.md', 'r') as file: 
+              content = file.read()
           
-          if start != -1 and end != -1:
-              new_content = content[:start + 20] + '\n' + table + '\n' + content[end:]
-              with open('README.md', 'w') as file: file.write(new_content)
+          # 4. Safely replace everything between the START and END tags
+          new_content = re.sub(
+              r'().*?()', 
+              r'\1' + table + r'\2', 
+              content, 
+              flags=re.DOTALL
+          )
+          
+          # 5. Write the changes
+          with open('README.md', 'w') as file: 
+              file.write(new_content)
           "
           
       - name: Commit and Push
@@ -38,5 +50,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Auto-updated README table with folders" || exit 0
+          git commit -m "Fixed markdown table rendering" || exit 0
           git push
