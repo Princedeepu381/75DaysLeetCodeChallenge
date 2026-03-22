@@ -41,3 +41,21 @@
 	<li><code>-1000 &lt;= target &lt;= 1000</code></li>
 	<li>The tests are generated such that there is <strong>exactly one solution</strong>.</li>
 </ul>
+
+### Intuition
+Because the array is already sorted, we do not need the $O(n)$ space of a hash map to find the complement. We can use the sorted property to our advantage by placing pointers at the smallest and largest numbers. If their sum is too big, we need a smaller number, so we shift the right pointer left. If the sum is too small, we need a bigger number, so we shift the left pointer right.
+
+### Approach
+
+1. Initialize a left pointer `l` at index `0` and a right pointer `r` at `len(numbers) - 1`.
+2. Enter a loop that runs as long as `l < r`.
+3. Calculate the sum of the elements at the two pointers: `curr_sum = numbers[l] + numbers[r]`.
+4. If `curr_sum` is greater than the `target`, decrement `r` by 1.
+5. If `curr_sum` is less than the `target`, increment `l` by 1.
+6. If they are equal, you've found the pair. Return their 1-based indices `[l + 1, r + 1]`.
+
+### Complexity
+* **Time complexity:** $O(n)$
+In the worst-case scenario, the pointers will meet in the middle, meaning we traverse the array exactly once.
+* **Space complexity:** $O(1)$
+We only use two integer variables (`l` and `r`) for pointers, strictly adhering to the constant extra space requirement.
