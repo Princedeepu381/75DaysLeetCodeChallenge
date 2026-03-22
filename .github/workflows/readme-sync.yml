@@ -3,11 +3,17 @@ on:
   push:
     branches: [ main ]
 
+# THIS IS THE NEW PART THAT FIXES THE ERROR
+permissions:
+  contents: write 
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       
       - name: Generate Table using Python
         run: |
@@ -18,7 +24,6 @@ jobs:
           for f in files: table += f'| {f} | Python |\n'
           
           with open('README.md', 'r') as file: content = file.read()
-          # Assumes you have and in your README
           start, end = content.find(''), content.find('')
           if start != -1 and end != -1:
               new_content = content[:start + 20] + '\n' + table + '\n' + content[end:]
@@ -27,8 +32,8 @@ jobs:
           
       - name: Commit and Push
         run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
           git commit -m "Auto-updated README table" || exit 0
           git push
