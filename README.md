@@ -9,6 +9,7 @@
 | Problem Folder | Link |
 |---|---|
 | 0001-two-sum | [View Code](./0001-two-sum) |
+| 0015-3sum | [View Code](./0015-3sum) |
 | 0026-remove-duplicates-from-sorted-array | [View Code](./0026-remove-duplicates-from-sorted-array) |
 | 0049-group-anagrams | [View Code](./0049-group-anagrams) |
 | 0125-valid-palindrome | [View Code](./0125-valid-palindrome) |
@@ -19,19 +20,3 @@
 | 0283-move-zeroes | [View Code](./0283-move-zeroes) |
 | 0347-top-k-frequent-elements | [View Code](./0347-top-k-frequent-elements) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0015-3sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
-## Two Pointers
-|  |
-| ------- |
-| [0015-3sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
-## Sorting
-|  |
-| ------- |
-| [0015-3sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
-<!---LeetCode Topics End-->
