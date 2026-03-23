@@ -19,3 +19,19 @@
 | 0283-move-zeroes | [View Code](./0283-move-zeroes) |
 | 0347-top-k-frequent-elements | [View Code](./0347-top-k-frequent-elements) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0015-3sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
+## Two Pointers
+|  |
+| ------- |
+| [0015-3sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
+## Sorting
+|  |
+| ------- |
+| [0015-3sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
+<!---LeetCode Topics End-->
