@@ -25,6 +25,27 @@
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
+### Intuition
+The area of a container is determined by `width * height`. The width is maximized when our pointers are at opposite ends of the array. Because the water level cannot be slanted, the maximum height of the water is completely limited by the *shorter* of the two lines. 
+
+If we move the taller line inward, the width decreases, and the bottleneck height still cannot exceed the original shorter line—meaning the area will *always* decrease or stay the same. The only way to potentially find a larger area is to abandon the shorter line and move its pointer inward, hoping to find a taller line to compensate for the lost width.
+
+### Approach
+
+1. Initialize two pointers: `l` at the beginning (`0`) and `r` at the end (`len(height) - 1`).
+2. Keep a variable `res` to track the maximum area seen so far.
+3. While `l < r`:
+   * Calculate the current area: multiply the distance between the pointers `(r - l)` by the minimum of the two heights `min(height[l], height[r])`.
+   * Update `res` if the current area is larger.
+   * Compare `height[l]` and `height[r]`. Increment `l` if the left line is shorter; otherwise, decrement `r`.
+4. Return the maximum area `res` once the pointers meet.
+
+### Complexity
+* **Time complexity:** $O(n)$
+We traverse the array exactly once. The two pointers move inward and meet in the middle, evaluating each line at most one time.
+* **Space complexity:** $O(1)$
+We only use a few integer variables (`l`, `r`, `res`, `current_area`) regardless of the size of the input array, adhering to constant extra space.
+
 <ul>
 	<li><code>n == height.length</code></li>
 	<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>
