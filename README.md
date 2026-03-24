@@ -9,6 +9,7 @@
 | Problem Folder | Link |
 |---|---|
 | 0001-two-sum | [View Code](./0001-two-sum) |
+| 0011-container-with-most-water | [View Code](./0011-container-with-most-water) |
 | 0015-3sum | [View Code](./0015-3sum) |
 | 0026-remove-duplicates-from-sorted-array | [View Code](./0026-remove-duplicates-from-sorted-array) |
 | 0049-group-anagrams | [View Code](./0049-group-anagrams) |
@@ -20,19 +21,3 @@
 | 0283-move-zeroes | [View Code](./0283-move-zeroes) |
 | 0347-top-k-frequent-elements | [View Code](./0347-top-k-frequent-elements) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0011-container-with-most-water) |
-## Two Pointers
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0011-container-with-most-water) |
-## Greedy
-|  |
-| ------- |
-| [0011-container-with-most-water](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0011-container-with-most-water) |
-<!---LeetCode Topics End-->
