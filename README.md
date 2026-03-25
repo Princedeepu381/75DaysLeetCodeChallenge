@@ -21,3 +21,15 @@
 | 0283-move-zeroes | [View Code](./0283-move-zeroes) |
 | 0347-top-k-frequent-elements | [View Code](./0347-top-k-frequent-elements) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
+<!---LeetCode Topics End-->
