@@ -9,6 +9,7 @@
 | Problem Folder | Link |
 |---|---|
 | 0001-two-sum | [View Code](./0001-two-sum) |
+| 0003-longest-substring-without-repeating-characters | [View Code](./0003-longest-substring-without-repeating-characters) |
 | 0011-container-with-most-water | [View Code](./0011-container-with-most-water) |
 | 0015-3sum | [View Code](./0015-3sum) |
 | 0026-remove-duplicates-from-sorted-array | [View Code](./0026-remove-duplicates-from-sorted-array) |
@@ -23,19 +24,3 @@
 | 0347-top-k-frequent-elements | [View Code](./0347-top-k-frequent-elements) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
 | 0643-maximum-average-subarray-i | [View Code](./0643-maximum-average-subarray-i) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
-## String
-|  |
-| ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
-## Sliding Window
-|  |
-| ------- |
-| [0003-longest-substring-without-repeating-characters](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
-<!---LeetCode Topics End-->
