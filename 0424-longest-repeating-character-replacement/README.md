@@ -28,3 +28,25 @@ There may exists other ways to achieve this answer too.</pre>
 	<li><code>s</code> consists of only uppercase English letters.</li>
 	<li><code>0 &lt;= k &lt;= s.length</code></li>
 </ul>
+
+
+### Intuition
+To maximize the length of a repeating character string, we want to find a window where the majority of characters are already the same, and we just use our `k` replacements to fix the few odd ones out. 
+
+How do we mathematically know if a window is valid? We take the total length of the window and subtract the count of the most frequent character. The result is the exact number of characters we *must* change. If this number is greater than `k`, our window has too many different characters, and we must shrink it from the left.
+
+### Approach
+
+1. Initialize a Hash Map `count` to track the frequency of characters in your current window.
+2. Use two pointers, `l` and `r`, starting at index `0`.
+3. Keep a `max_freq` variable to track the highest count of a single character in the window.
+4. Iterate through the string with the right pointer `r`. For each character `s[r]`, increment its count in the hash map and update `max_freq`.
+5. Check if the current window is invalid. The formula is: `(r - l + 1) - max_freq > k`. 
+6. If it is invalid, we slide the left side of the window forward: decrement the count of `s[l]` in the hash map, and increment `l` by 1. *(Note: We don't strictly need to downgrade `max_freq` here, because a smaller `max_freq` won't help us find a larger overall window length later).*
+7. After ensuring the window is valid, update `res` with the maximum window size seen so far `(r - l + 1)`.
+
+### Complexity
+* **Time complexity:** $O(n)$
+Both the left and right pointers only move forward through the string. Calculating the window size and updating the hash map takes $O(1)$ time per step.
+* **Space complexity:** $O(1)$
+The problem constraints state that the string only contains uppercase English letters. Therefore, the hash map `count` will never store more than 26 key-value pairs, making the auxiliary space constant.
