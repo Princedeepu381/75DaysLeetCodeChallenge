@@ -22,21 +22,6 @@
 | 0242-valid-anagram | [View Code](./0242-valid-anagram) |
 | 0283-move-zeroes | [View Code](./0283-move-zeroes) |
 | 0347-top-k-frequent-elements | [View Code](./0347-top-k-frequent-elements) |
+| 0424-longest-repeating-character-replacement | [View Code](./0424-longest-repeating-character-replacement) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
 | 0643-maximum-average-subarray-i | [View Code](./0643-maximum-average-subarray-i) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [0424-longest-repeating-character-replacement](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0424-longest-repeating-character-replacement) |
-## String
-|  |
-| ------- |
-| [0424-longest-repeating-character-replacement](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0424-longest-repeating-character-replacement) |
-## Sliding Window
-|  |
-| ------- |
-| [0424-longest-repeating-character-replacement](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0424-longest-repeating-character-replacement) |
-<!---LeetCode Topics End-->
