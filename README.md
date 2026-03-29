@@ -12,6 +12,7 @@
 | 0003-longest-substring-without-repeating-characters | [View Code](./0003-longest-substring-without-repeating-characters) |
 | 0011-container-with-most-water | [View Code](./0011-container-with-most-water) |
 | 0015-3sum | [View Code](./0015-3sum) |
+| 0020-valid-parentheses | [View Code](./0020-valid-parentheses) |
 | 0026-remove-duplicates-from-sorted-array | [View Code](./0026-remove-duplicates-from-sorted-array) |
 | 0049-group-anagrams | [View Code](./0049-group-anagrams) |
 | 0121-best-time-to-buy-and-sell-stock | [View Code](./0121-best-time-to-buy-and-sell-stock) |
@@ -25,15 +26,3 @@
 | 0424-longest-repeating-character-replacement | [View Code](./0424-longest-repeating-character-replacement) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
 | 0643-maximum-average-subarray-i | [View Code](./0643-maximum-average-subarray-i) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0020-valid-parentheses) |
-## Stack
-|  |
-| ------- |
-| [0020-valid-parentheses](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0020-valid-parentheses) |
-<!---LeetCode Topics End-->
