@@ -19,6 +19,7 @@
 | 0125-valid-palindrome | [View Code](./0125-valid-palindrome) |
 | 0167-two-sum-ii-input-array-is-sorted | [View Code](./0167-two-sum-ii-input-array-is-sorted) |
 | 0217-contains-duplicate | [View Code](./0217-contains-duplicate) |
+| 0232-implement-queue-using-stacks | [View Code](./0232-implement-queue-using-stacks) |
 | 0238-product-of-array-except-self | [View Code](./0238-product-of-array-except-self) |
 | 0242-valid-anagram | [View Code](./0242-valid-anagram) |
 | 0283-move-zeroes | [View Code](./0283-move-zeroes) |
@@ -26,19 +27,3 @@
 | 0424-longest-repeating-character-replacement | [View Code](./0424-longest-repeating-character-replacement) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
 | 0643-maximum-average-subarray-i | [View Code](./0643-maximum-average-subarray-i) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Stack
-|  |
-| ------- |
-| [0232-implement-queue-using-stacks](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0232-implement-queue-using-stacks) |
-## Design
-|  |
-| ------- |
-| [0232-implement-queue-using-stacks](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0232-implement-queue-using-stacks) |
-## Queue
-|  |
-| ------- |
-| [0232-implement-queue-using-stacks](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0232-implement-queue-using-stacks) |
-<!---LeetCode Topics End-->
