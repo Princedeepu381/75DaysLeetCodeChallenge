@@ -42,3 +42,20 @@ minStack.getMin(); // return -2
 	<li>Methods <code>pop</code>, <code>top</code> and <code>getMin</code> operations will always be called on <strong>non-empty</strong> stacks.</li>
 	<li>At most <code>3 * 10<sup>4</sup></code> calls will be made to <code>push</code>, <code>pop</code>, <code>top</code>, and <code>getMin</code>.</li>
 </ul>
+
+
+### Intuition
+A standard stack allows you to push and pop in $O(1)$ time, but finding the minimum value normally requires scanning the entire stack, which takes $O(n)$ time. The trick to achieving $O(1)$ lookups for the minimum is to calculate and "remember" the lowest value at the exact moment every single element is added. If every element remembers what the minimum was at the time it was pushed, you never have to search for it later.
+
+### Approach
+
+1. Initialize two parallel arrays: `stack` to hold your actual data, and `min_stack` to act as a historical record of the minimum values.
+2. **`push(val)`**: Always append `val` to your main `stack`. Before appending to `min_stack`, check what is currently at the top of it (which represents the lowest number seen so far). Push whichever is smaller: the new `val`, or the existing minimum. 
+3. **`pop()`**: Because both stacks are updated simultaneously on every push, you just `pop()` from both of them at the exact same time. This keeps them perfectly synchronized. If the absolute minimum value is popped off the main stack, it is automatically popped off the `min_stack` too, revealing the *previous* minimum underneath it.
+4. **`top()`**: Just return the last element in your main `stack` (`self.stack[-1]`).
+5. **`getMin()`**: Because of our setup, the last element in `min_stack` (`self.min_stack[-1]`) is guaranteed to be the absolute minimum of all currently active elements.
+
+### Complexity
+* **Time complexity:** $O(1)$ for all operations (`push`, `pop`, `top`, `getMin`). We are only ever appending to or popping from the very end of Python lists, and doing simple mathematical comparisons.
+* **Space complexity:** $O(n)$
+We are maintaining an additional array (`min_stack`) that scales perfectly 1:1 with the number of elements pushed into the main stack.
