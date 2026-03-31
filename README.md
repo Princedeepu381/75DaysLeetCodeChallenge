@@ -17,6 +17,7 @@
 | 0049-group-anagrams | [View Code](./0049-group-anagrams) |
 | 0121-best-time-to-buy-and-sell-stock | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | [View Code](./0125-valid-palindrome) |
+| 0155-min-stack | [View Code](./0155-min-stack) |
 | 0167-two-sum-ii-input-array-is-sorted | [View Code](./0167-two-sum-ii-input-array-is-sorted) |
 | 0217-contains-duplicate | [View Code](./0217-contains-duplicate) |
 | 0232-implement-queue-using-stacks | [View Code](./0232-implement-queue-using-stacks) |
@@ -27,15 +28,3 @@
 | 0424-longest-repeating-character-replacement | [View Code](./0424-longest-repeating-character-replacement) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
 | 0643-maximum-average-subarray-i | [View Code](./0643-maximum-average-subarray-i) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Stack
-|  |
-| ------- |
-| [0155-min-stack](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0155-min-stack) |
-## Design
-|  |
-| ------- |
-| [0155-min-stack](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0155-min-stack) |
-<!---LeetCode Topics End-->
