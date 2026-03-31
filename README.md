@@ -27,3 +27,15 @@
 | 0424-longest-repeating-character-replacement | [View Code](./0424-longest-repeating-character-replacement) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
 | 0643-maximum-average-subarray-i | [View Code](./0643-maximum-average-subarray-i) |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Stack
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0155-min-stack) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0155-min-stack) |
+<!---LeetCode Topics End-->
