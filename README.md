@@ -17,6 +17,7 @@
 | 0049-group-anagrams | [View Code](./0049-group-anagrams) |
 | 0121-best-time-to-buy-and-sell-stock | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | [View Code](./0125-valid-palindrome) |
+| 0150-evaluate-reverse-polish-notation | [View Code](./0150-evaluate-reverse-polish-notation) |
 | 0155-min-stack | [View Code](./0155-min-stack) |
 | 0167-two-sum-ii-input-array-is-sorted | [View Code](./0167-two-sum-ii-input-array-is-sorted) |
 | 0217-contains-duplicate | [View Code](./0217-contains-duplicate) |
@@ -28,19 +29,3 @@
 | 0424-longest-repeating-character-replacement | [View Code](./0424-longest-repeating-character-replacement) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
 | 0643-maximum-average-subarray-i | [View Code](./0643-maximum-average-subarray-i) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0150-evaluate-reverse-polish-notation](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0150-evaluate-reverse-polish-notation) |
-## Math
-|  |
-| ------- |
-| [0150-evaluate-reverse-polish-notation](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0150-evaluate-reverse-polish-notation) |
-## Stack
-|  |
-| ------- |
-| [0150-evaluate-reverse-polish-notation](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0150-evaluate-reverse-polish-notation) |
-<!---LeetCode Topics End-->
