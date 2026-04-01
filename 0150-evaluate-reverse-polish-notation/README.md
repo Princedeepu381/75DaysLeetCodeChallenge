@@ -51,3 +51,24 @@
 	<li><code>1 &lt;= tokens.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>tokens[i]</code> is either an operator: <code>&quot;+&quot;</code>, <code>&quot;-&quot;</code>, <code>&quot;*&quot;</code>, or <code>&quot;/&quot;</code>, or an integer in the range <code>[-200, 200]</code>.</li>
 </ul>
+
+
+### Intuition
+Reverse Polish Notation (RPN), also known as postfix notation, is practically designed to be solved using a Stack. Because the operators always follow their operands, you can continuously push numbers onto a stack as you read them. The moment you hit an operator, you know exactly which numbers it applies to: the two most recent numbers you just looked at (which are sitting right at the top of your stack).
+
+### Approach
+
+1. Initialize an empty `stack` to keep track of the numbers.
+2. Iterate through each `token` in the input array.
+3. **If the token is a number:** Convert it to an integer and `push` it onto the stack.
+4. **If the token is an operator (`+`, `-`, `*`, `/`):** * `pop` the top two numbers from the stack. *Important:* The first number popped is the right operand, and the second number popped is the left operand (e.g., for `b - a`, `a` is popped first).
+   * Evaluate the mathematical expression.
+   * *Python-specific gotcha:* For division, use `int(b / a)` instead of `b // a`. The problem strictly requires division to truncate toward zero (e.g., `int(6 / -132) = 0`), whereas Python's `//` operator truncates toward negative infinity (`6 // -132 = -1`).
+   * `push` the calculated result back onto the stack.
+5. Once the loop finishes, the entire expression will have collapsed into a single number. Return `stack[0]`.
+
+### Complexity
+* **Time complexity:** $O(n)$
+We iterate through the array of `n` tokens exactly once. Pushing to and popping from a stack, as well as basic arithmetic operations, all take $O(1)$ time.
+* **Space complexity:** $O(n)$
+In the worst-case scenario (an expression with many numbers and only a few operators at the very end), the stack will store up to $(n + 1) / 2$ numbers, which simplifies to a linear space requirement.
