@@ -21,24 +21,34 @@ jobs:
           import re
           import urllib.request
           import json
+          import time
 
           # 1. Find the folders
           folders = sorted([f for f in os.listdir('.') if os.path.isdir(f) and f[0].isdigit()])
 
           # 2. Function to fetch topics from LeetCode API
           def get_topics(slug):
+              time.sleep(0.5) # Tiny delay to prevent getting IP banned by LeetCode
               try:
                   req = urllib.request.Request("https://leetcode.com/graphql", method="POST")
                   req.add_header("Content-Type", "application/json")
-                  # GraphQL query to get topic tags
+                  # The Magic Fix: Pretend to be a real Google Chrome browser
+                  req.add_header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+                  req.add_header("Referer", f"https://leetcode.com/problems/{slug}/")
+                  
                   query = {"query": 'query { question(titleSlug: "' + slug + '") { topicTags { name } } }'}
                   data = json.dumps(query).encode("utf-8")
+                  
                   response = urllib.request.urlopen(req, data=data, timeout=10)
                   res = json.loads(response.read().decode("utf-8"))
-                  tags = res["data"]["question"]["topicTags"]
-                  return ", ".join([tag["name"] for tag in tags])
-              except:
-                  return "N/A" # Fallback if API fails
+                  
+                  if "data" in res and res["data"]["question"] and "topicTags" in res["data"]["question"]:
+                      tags = res["data"]["question"]["topicTags"]
+                      return ", ".join([tag["name"] for tag in tags])
+                  return "N/A"
+              except Exception as e:
+                  print(f"Failed to fetch for {slug}: {e}") # This will show up in Actions Logs if it fails
+                  return "N/A"
 
           # 3. Build the README string
           readme = """<div align="center">
@@ -53,7 +63,6 @@ jobs:
 
           # 4. Generate table rows
           for f in folders:
-              # Extract slug (e.g., '0001-two-sum' -> 'two-sum')
               match = re.match(r'^\d+-(.+)$', f)
               slug = match.group(1) if match else f
               topics = get_topics(slug)
@@ -72,5 +81,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Added topics column using LeetCode API" || exit 0
+          git commit -m "Fixed LeetCode API bot block" || exit 0
           git push
