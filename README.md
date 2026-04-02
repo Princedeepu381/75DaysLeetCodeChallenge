@@ -29,19 +29,4 @@
 | 0424-longest-repeating-character-replacement | [View Code](./0424-longest-repeating-character-replacement) |
 | 0448-find-all-numbers-disappeared-in-an-array | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
 | 0643-maximum-average-subarray-i | [View Code](./0643-maximum-average-subarray-i) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0739-daily-temperatures](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0739-daily-temperatures) |
-## Stack
-|  |
-| ------- |
-| [0739-daily-temperatures](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0739-daily-temperatures) |
-## Monotonic Stack
-|  |
-| ------- |
-| [0739-daily-temperatures](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0739-daily-temperatures) |
-<!---LeetCode Topics End-->
+| 0739-daily-temperatures | [View Code](./0739-daily-temperatures) |
