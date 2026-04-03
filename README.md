@@ -30,3 +30,15 @@
 | 0448-find-all-numbers-disappeared-in-an-array | Array, Hash Table | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
 | 0643-maximum-average-subarray-i | Array, Sliding Window | [View Code](./0643-maximum-average-subarray-i) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0704-binary-search](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0704-binary-search/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0704-binary-search](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0704-binary-search/) | Easy |
+<!---LeetCode Topics End-->
