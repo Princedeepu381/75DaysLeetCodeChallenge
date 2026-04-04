@@ -14,6 +14,7 @@
 | 0015-3sum | Array, Two Pointers, Sorting | [View Code](./0015-3sum) |
 | 0020-valid-parentheses | String, Stack | [View Code](./0020-valid-parentheses) |
 | 0026-remove-duplicates-from-sorted-array | Array, Two Pointers | [View Code](./0026-remove-duplicates-from-sorted-array) |
+| 0035-search-insert-position | Array, Binary Search | [View Code](./0035-search-insert-position) |
 | 0049-group-anagrams | Array, Hash Table, String, Sorting | [View Code](./0049-group-anagrams) |
 | 0121-best-time-to-buy-and-sell-stock | Array, Dynamic Programming | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | Two Pointers, String | [View Code](./0125-valid-palindrome) |
@@ -31,15 +32,3 @@
 | 0643-maximum-average-subarray-i | Array, Sliding Window | [View Code](./0643-maximum-average-subarray-i) |
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0035-search-insert-position](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0035-search-insert-position/) | Easy |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0035-search-insert-position](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0035-search-insert-position/) | Easy |
-<!---LeetCode Topics End-->
