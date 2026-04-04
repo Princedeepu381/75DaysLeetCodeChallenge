@@ -33,3 +33,11 @@
 	<li><code>nums</code> contains <strong>distinct</strong> values sorted in <strong>ascending</strong> order.</li>
 	<li><code>-10<sup>4</sup> &lt;= target &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+
+### Intuition
+This is a standard Binary Search. The only difference from a regular search is what happens when the target is *not* in the array. Because of how binary search shrinks the window, when the loop finally breaks (`l > r`), the left pointer `l` will naturally rest exactly at the index where the target *should* be inserted to maintain the sorted order.
+
+### Complexity
+* **Time complexity:** $O(\log n)$ — The search space is halved every iteration.
+* **Space complexity:** $O(1)$ — Only constant extra space is used for the pointers.
