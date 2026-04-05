@@ -16,6 +16,7 @@
 | 0026-remove-duplicates-from-sorted-array | Array, Two Pointers | [View Code](./0026-remove-duplicates-from-sorted-array) |
 | 0035-search-insert-position | Array, Binary Search | [View Code](./0035-search-insert-position) |
 | 0049-group-anagrams | Array, Hash Table, String, Sorting | [View Code](./0049-group-anagrams) |
+| 0074-search-a-2d-matrix | Array, Binary Search, Matrix | [View Code](./0074-search-a-2d-matrix) |
 | 0121-best-time-to-buy-and-sell-stock | Array, Dynamic Programming | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | Two Pointers, String | [View Code](./0125-valid-palindrome) |
 | 0150-evaluate-reverse-polish-notation | Array, Math, Stack | [View Code](./0150-evaluate-reverse-polish-notation) |
@@ -32,19 +33,3 @@
 | 0643-maximum-average-subarray-i | Array, Sliding Window | [View Code](./0643-maximum-average-subarray-i) |
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0074-search-a-2d-matrix](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0074-search-a-2d-matrix/) | Medium |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0074-search-a-2d-matrix](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0074-search-a-2d-matrix/) | Medium |
-## Matrix
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0074-search-a-2d-matrix](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0074-search-a-2d-matrix/) | Medium |
-<!---LeetCode Topics End-->
