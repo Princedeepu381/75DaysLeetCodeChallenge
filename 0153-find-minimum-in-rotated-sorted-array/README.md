@@ -46,3 +46,26 @@
 	<li>All the integers of <code>nums</code> are <strong>unique</strong>.</li>
 	<li><code>nums</code> is sorted and rotated between <code>1</code> and <code>n</code> times.</li>
 </ul>
+
+
+
+### Intuition
+In a normal sorted array, the numbers strictly increase. Because this array is rotated, there is exactly one "pivot" point where the sequence breaks and drops from a high number down to the absolute minimum. 
+
+We can use Binary Search to find this drop. By comparing the middle element to the rightmost element, we instantly know which half of the array contains the pivot. If the middle number is greater than the right number, the sequence is broken on the right side, so the minimum must be over there. If the middle number is less than the right number, the right side is perfectly sorted, meaning the drop already happened on the left side (or we are currently sitting right on it).
+
+### Approach
+
+1. Initialize a left pointer `l` at `0` and a right pointer `r` at `len(nums) - 1`.
+2. Enter a `while` loop that continues strictly while `l < r`. (We don't use `<=` because we want the pointers to converge on the exact minimum element).
+3. Calculate the middle index `mid`.
+4. Compare `nums[mid]` to `nums[r]`:
+   * If `nums[mid] > nums[r]`, the array from `mid` to `r` is unsorted. The minimum has to be to the right of `mid`. Shift the left pointer: `l = mid + 1`.
+   * If `nums[mid] <= nums[r]`, the array from `mid` to `r` is perfectly sorted. The minimum could be `nums[mid]` itself, or it could be to the left. Shift the right pointer: `r = mid`. (Notice we don't do `mid - 1` because `mid` might literally be the minimum!).
+5. Once the loop terminates, `l` and `r` will point to the exact same index. Return `nums[l]`.
+
+### Complexity
+* **Time complexity:** $O(\log n)$
+By discarding half of the remaining array at every step, the algorithm runs in logarithmic time, strictly satisfying the problem's $O(\log n)$ requirement.
+* **Space complexity:** $O(1)$
+We only allocate a few integer variables (`l`, `r`, `mid`), which use a constant amount of memory.
