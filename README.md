@@ -20,6 +20,7 @@
 | 0121-best-time-to-buy-and-sell-stock | Array, Dynamic Programming | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | Two Pointers, String | [View Code](./0125-valid-palindrome) |
 | 0150-evaluate-reverse-polish-notation | Array, Math, Stack | [View Code](./0150-evaluate-reverse-polish-notation) |
+| 0153-find-minimum-in-rotated-sorted-array | Array, Binary Search | [View Code](./0153-find-minimum-in-rotated-sorted-array) |
 | 0155-min-stack | Stack, Design | [View Code](./0155-min-stack) |
 | 0167-two-sum-ii-input-array-is-sorted | Array, Two Pointers, Binary Search | [View Code](./0167-two-sum-ii-input-array-is-sorted) |
 | 0217-contains-duplicate | Array, Hash Table, Sorting | [View Code](./0217-contains-duplicate) |
@@ -33,15 +34,3 @@
 | 0643-maximum-average-subarray-i | Array, Sliding Window | [View Code](./0643-maximum-average-subarray-i) |
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
-<!---LeetCode Topics End-->
