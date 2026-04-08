@@ -24,6 +24,7 @@
 | 0153-find-minimum-in-rotated-sorted-array | Array, Binary Search | [View Code](./0153-find-minimum-in-rotated-sorted-array) |
 | 0155-min-stack | Stack, Design | [View Code](./0155-min-stack) |
 | 0167-two-sum-ii-input-array-is-sorted | Array, Two Pointers, Binary Search | [View Code](./0167-two-sum-ii-input-array-is-sorted) |
+| 0206-reverse-linked-list | Linked List, Recursion | [View Code](./0206-reverse-linked-list) |
 | 0217-contains-duplicate | Array, Hash Table, Sorting | [View Code](./0217-contains-duplicate) |
 | 0232-implement-queue-using-stacks | Stack, Design, Queue | [View Code](./0232-implement-queue-using-stacks) |
 | 0238-product-of-array-except-self | Array, Prefix Sum | [View Code](./0238-product-of-array-except-self) |
@@ -35,15 +36,3 @@
 | 0643-maximum-average-subarray-i | Array, Sliding Window | [View Code](./0643-maximum-average-subarray-i) |
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0206-reverse-linked-list](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0206-reverse-linked-list/) | Easy |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0206-reverse-linked-list](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0206-reverse-linked-list/) | Easy |
-<!---LeetCode Topics End-->
