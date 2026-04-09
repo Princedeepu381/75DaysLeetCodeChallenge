@@ -13,6 +13,7 @@
 | 0011-container-with-most-water | Array, Two Pointers, Greedy | [View Code](./0011-container-with-most-water) |
 | 0015-3sum | Array, Two Pointers, Sorting | [View Code](./0015-3sum) |
 | 0020-valid-parentheses | String, Stack | [View Code](./0020-valid-parentheses) |
+| 0021-merge-two-sorted-lists | Linked List, Recursion | [View Code](./0021-merge-two-sorted-lists) |
 | 0026-remove-duplicates-from-sorted-array | Array, Two Pointers | [View Code](./0026-remove-duplicates-from-sorted-array) |
 | 0033-search-in-rotated-sorted-array | Array, Binary Search | [View Code](./0033-search-in-rotated-sorted-array) |
 | 0035-search-insert-position | Array, Binary Search | [View Code](./0035-search-insert-position) |
@@ -36,15 +37,3 @@
 | 0643-maximum-average-subarray-i | Array, Sliding Window | [View Code](./0643-maximum-average-subarray-i) |
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0021-merge-two-sorted-lists](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0021-merge-two-sorted-lists/) | Easy |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0021-merge-two-sorted-lists](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0021-merge-two-sorted-lists/) | Easy |
-<!---LeetCode Topics End-->
