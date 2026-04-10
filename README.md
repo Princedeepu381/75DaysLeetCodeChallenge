@@ -21,6 +21,7 @@
 | 0074-search-a-2d-matrix | Array, Binary Search, Matrix | [View Code](./0074-search-a-2d-matrix) |
 | 0121-best-time-to-buy-and-sell-stock | Array, Dynamic Programming | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | Two Pointers, String | [View Code](./0125-valid-palindrome) |
+| 0141-linked-list-cycle | Hash Table, Linked List, Two Pointers | [View Code](./0141-linked-list-cycle) |
 | 0150-evaluate-reverse-polish-notation | Array, Math, Stack | [View Code](./0150-evaluate-reverse-polish-notation) |
 | 0153-find-minimum-in-rotated-sorted-array | Array, Binary Search | [View Code](./0153-find-minimum-in-rotated-sorted-array) |
 | 0155-min-stack | Stack, Design | [View Code](./0155-min-stack) |
@@ -37,19 +38,3 @@
 | 0643-maximum-average-subarray-i | Array, Sliding Window | [View Code](./0643-maximum-average-subarray-i) |
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0141-linked-list-cycle](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0141-linked-list-cycle/) | Easy |
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0141-linked-list-cycle](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0141-linked-list-cycle/) | Easy |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0141-linked-list-cycle](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0141-linked-list-cycle/) | Easy |
-<!---LeetCode Topics End-->
