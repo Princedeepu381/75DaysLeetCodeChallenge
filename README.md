@@ -38,15 +38,4 @@
 | 0643-maximum-average-subarray-i | Array, Sliding Window | [View Code](./0643-maximum-average-subarray-i) |
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0876-middle-of-the-linked-list](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0876-middle-of-the-linked-list/) | Easy |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0876-middle-of-the-linked-list](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0876-middle-of-the-linked-list/) | Easy |
-<!---LeetCode Topics End-->
+| 0876-middle-of-the-linked-list | Linked List, Two Pointers | [View Code](./0876-middle-of-the-linked-list) |
