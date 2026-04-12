@@ -22,6 +22,7 @@
 | 0121-best-time-to-buy-and-sell-stock | Array, Dynamic Programming | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | Two Pointers, String | [View Code](./0125-valid-palindrome) |
 | 0141-linked-list-cycle | Hash Table, Linked List, Two Pointers | [View Code](./0141-linked-list-cycle) |
+| 0143-reorder-list | Linked List, Two Pointers, Stack, Recursion | [View Code](./0143-reorder-list) |
 | 0150-evaluate-reverse-polish-notation | Array, Math, Stack | [View Code](./0150-evaluate-reverse-polish-notation) |
 | 0153-find-minimum-in-rotated-sorted-array | Array, Binary Search | [View Code](./0153-find-minimum-in-rotated-sorted-array) |
 | 0155-min-stack | Stack, Design | [View Code](./0155-min-stack) |
@@ -39,23 +40,3 @@
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
 | 0876-middle-of-the-linked-list | Linked List, Two Pointers | [View Code](./0876-middle-of-the-linked-list) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0143-reorder-list](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0143-reorder-list/) | Medium |
-## Two Pointers
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0143-reorder-list](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0143-reorder-list/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0143-reorder-list](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0143-reorder-list/) | Medium |
-## Recursion
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0143-reorder-list](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0143-reorder-list/) | Medium |
-<!---LeetCode Topics End-->
