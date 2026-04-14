@@ -30,6 +30,7 @@
 | 0167-two-sum-ii-input-array-is-sorted | Array, Two Pointers, Binary Search | [View Code](./0167-two-sum-ii-input-array-is-sorted) |
 | 0206-reverse-linked-list | Linked List, Recursion | [View Code](./0206-reverse-linked-list) |
 | 0217-contains-duplicate | Array, Hash Table, Sorting | [View Code](./0217-contains-duplicate) |
+| 0226-invert-binary-tree | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [View Code](./0226-invert-binary-tree) |
 | 0232-implement-queue-using-stacks | Stack, Design, Queue | [View Code](./0232-implement-queue-using-stacks) |
 | 0238-product-of-array-except-self | Array, Prefix Sum | [View Code](./0238-product-of-array-except-self) |
 | 0242-valid-anagram | Hash Table, String, Sorting | [View Code](./0242-valid-anagram) |
@@ -41,23 +42,3 @@
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
 | 0876-middle-of-the-linked-list | Linked List, Two Pointers | [View Code](./0876-middle-of-the-linked-list) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0226-invert-binary-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0226-invert-binary-tree/) | Easy |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0226-invert-binary-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0226-invert-binary-tree/) | Easy |
-## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0226-invert-binary-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0226-invert-binary-tree/) | Easy |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0226-invert-binary-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0226-invert-binary-tree/) | Easy |
-<!---LeetCode Topics End-->
