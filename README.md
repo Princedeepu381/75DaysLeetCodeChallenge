@@ -20,6 +20,7 @@
 | 0035-search-insert-position | Array, Binary Search | [View Code](./0035-search-insert-position) |
 | 0049-group-anagrams | Array, Hash Table, String, Sorting | [View Code](./0049-group-anagrams) |
 | 0074-search-a-2d-matrix | Array, Binary Search, Matrix | [View Code](./0074-search-a-2d-matrix) |
+| 0104-maximum-depth-of-binary-tree | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [View Code](./0104-maximum-depth-of-binary-tree) |
 | 0121-best-time-to-buy-and-sell-stock | Array, Dynamic Programming | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | Two Pointers, String | [View Code](./0125-valid-palindrome) |
 | 0141-linked-list-cycle | Hash Table, Linked List, Two Pointers | [View Code](./0141-linked-list-cycle) |
