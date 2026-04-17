@@ -44,3 +44,23 @@
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
 | 0876-middle-of-the-linked-list | Linked List, Two Pointers | [View Code](./0876-middle-of-the-linked-list) |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Tree
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0100-same-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0100-same-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0100-same-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0100-same-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0100-same-tree) |
+<!---LeetCode Topics End-->
