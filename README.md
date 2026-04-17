@@ -44,3 +44,27 @@
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
 | 0876-middle-of-the-linked-list | Linked List, Two Pointers | [View Code](./0876-middle-of-the-linked-list) |
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Tree
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0572-subtree-of-another-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0572-subtree-of-another-tree) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0572-subtree-of-another-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0572-subtree-of-another-tree) |
+<!---LeetCode Topics End-->
