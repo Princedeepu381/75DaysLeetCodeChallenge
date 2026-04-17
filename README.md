@@ -39,6 +39,7 @@
 | 0347-top-k-frequent-elements | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | [View Code](./0347-top-k-frequent-elements) |
 | 0424-longest-repeating-character-replacement | Hash Table, String, Sliding Window | [View Code](./0424-longest-repeating-character-replacement) |
 | 0448-find-all-numbers-disappeared-in-an-array | Array, Hash Table | [View Code](./0448-find-all-numbers-disappeared-in-an-array) |
+| 0572-subtree-of-another-tree | Tree, Depth-First Search, String Matching, Binary Tree, Hash Function | [View Code](./0572-subtree-of-another-tree) |
 | 0643-maximum-average-subarray-i | Array, Sliding Window | [View Code](./0643-maximum-average-subarray-i) |
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
