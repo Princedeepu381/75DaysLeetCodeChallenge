@@ -20,6 +20,7 @@
 | 0035-search-insert-position | Array, Binary Search | [View Code](./0035-search-insert-position) |
 | 0049-group-anagrams | Array, Hash Table, String, Sorting | [View Code](./0049-group-anagrams) |
 | 0074-search-a-2d-matrix | Array, Binary Search, Matrix | [View Code](./0074-search-a-2d-matrix) |
+| 0100-same-tree | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [View Code](./0100-same-tree) |
 | 0104-maximum-depth-of-binary-tree | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [View Code](./0104-maximum-depth-of-binary-tree) |
 | 0121-best-time-to-buy-and-sell-stock | Array, Dynamic Programming | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | Two Pointers, String | [View Code](./0125-valid-palindrome) |
@@ -44,23 +45,3 @@
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
 | 0876-middle-of-the-linked-list | Linked List, Two Pointers | [View Code](./0876-middle-of-the-linked-list) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0100-same-tree) |
-## Depth-First Search
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0100-same-tree) |
-## Breadth-First Search
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0100-same-tree) |
-## Binary Tree
-|  |
-| ------- |
-| [0100-same-tree](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/master/0100-same-tree) |
-<!---LeetCode Topics End-->
