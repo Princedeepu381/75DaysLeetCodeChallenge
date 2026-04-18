@@ -22,6 +22,7 @@
 | 0074-search-a-2d-matrix | Array, Binary Search, Matrix | [View Code](./0074-search-a-2d-matrix) |
 | 0100-same-tree | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [View Code](./0100-same-tree) |
 | 0104-maximum-depth-of-binary-tree | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [View Code](./0104-maximum-depth-of-binary-tree) |
+| 0112-path-sum | Tree, Depth-First Search, Breadth-First Search, Binary Tree | [View Code](./0112-path-sum) |
 | 0121-best-time-to-buy-and-sell-stock | Array, Dynamic Programming | [View Code](./0121-best-time-to-buy-and-sell-stock) |
 | 0125-valid-palindrome | Two Pointers, String | [View Code](./0125-valid-palindrome) |
 | 0141-linked-list-cycle | Hash Table, Linked List, Two Pointers | [View Code](./0141-linked-list-cycle) |
@@ -45,23 +46,3 @@
 | 0704-binary-search | Array, Binary Search | [View Code](./0704-binary-search) |
 | 0739-daily-temperatures | Array, Stack, Monotonic Stack | [View Code](./0739-daily-temperatures) |
 | 0876-middle-of-the-linked-list | Linked List, Two Pointers | [View Code](./0876-middle-of-the-linked-list) |
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0112-path-sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0112-path-sum/) | Easy |
-## Depth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0112-path-sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0112-path-sum/) | Easy |
-## Breadth-First Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0112-path-sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0112-path-sum/) | Easy |
-## Binary Tree
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0112-path-sum](https://github.com/Princedeepu381/75DaysLeetCodeChallenge/tree/main/0112-path-sum/) | Easy |
-<!---LeetCode Topics End-->
